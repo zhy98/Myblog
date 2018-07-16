@@ -1,0 +1,135 @@
+body{	background-color: #b5a789;margin:0px;}
+.top{
+	  background-color: #675c47;
+	  height: 108px;
+	  margin: 10px 10px 0px 10px;
+}
+.nav{
+	display: flex;
+    align-items:Center;
+	height: 20px;
+	background-color: #efe5d0;
+	margin: 10px 10px 0px 10px;
+}
+.nav ul {
+	list-style-type: none;
+}
+.nav ul li {
+	display: inline;
+	padding: 5px 5px 5px 5px;
+	height: 100%;
+}
+.nav ul li a{
+	font-size: 1em;
+	color: #954b4b;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tabel{
+	display: table;
+	margin-top: 10px;
+	border-spacing: 10px;
+}
+.tr{
+	display: table-row;
+}
+.left{
+	display: table-cell;
+	margin: 10px 10px 10px 10px;
+	width: 20%;
+	background-color: #efe5d0;
+	vertical-align: top;
+}
+.message{
+	width: 208px;
+	height: 384px;
+	background-color: white;
+	margin: 20px auto;
+}
+.title{
+	background-color: rgb(236, 237, 238);
+	font-size: 14px;
+	line-height: 25px;
+	padding-left: 9px;
+}
+.photo{
+	width: 180px;
+	border: 1px solid #D1D1D1;
+	margin: 10px auto;
+}
+.photo img{
+	width: 180px;
+	height: 100%;
+}
+.id {
+	margin: 10px auto;
+	width: 180px;
+	text-align: center;
+	border-bottom: 1px dotted #D1D1D1;
+	padding-bottom: 10px;
+}
+.id input{
+	margin: 0 auto;
+	margin-top:10px; 
+}
+.button{
+		text-align: center;
+		padding: 20px 0px 0px 0px;
+}
+.buttons {
+	margin: 3px;
+	margin-bottom: 5px;
+	outline-style: none;
+	    width: 67px;
+    height: 21px;
+}.Ltext{
+	margin-left: 20px;
+}
+.left h1{
+	color: #954b4b;
+	font-size: 120%;
+}
+.left p{
+	padding-top: 1px;
+	font-size: 1em;
+}
+.center{
+	display: table-cell;
+	background: url("background.gif");
+	padding: 15px;
+	vertical-align: top;
+}
+.center h1{
+	color: #954b4b;
+	font-size: 120%;
+}
+.right{
+	width: 30%;
+	display: table-cell;
+	padding: 15px;
+	background: url(background.gif);
+	vertical-align: top;
+}
+.right p{
+	text-align: center;
+	font-size: 1em;
+	line-height: 30px;
+}
+.right img{
+	background-repeat: no-repeat;
+}
+.right a{
+	color: #954b4b;
+}
+.right span{
+	color: #954b4b;
+}
+footer{
+	margin: 5px;
+	height: 30px;
+	background-color: #675c47;
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 50%;
+	color: #efe5d0;
+}
